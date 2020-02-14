@@ -1,0 +1,19 @@
+#victory {
+    background-image: url('./jsx.gif');
+    border: 1px solid black;
+}
+
+#victory, #normal {
+    width: 100%;
+    text-align: center;
+    color: black;
+    border: solid 1px black;
+}
+
+.card {
+    float: left;
+    height: 128px;
+    margin: 50px 10px 50px 20px;
+    box-shadow: 4px 4px lightgray;
+}
+

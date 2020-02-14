@@ -1,0 +1,24 @@
+#game-status {
+    height: 200px;
+    background-image: url('./triangle-mosaic.png');
+    border: 1px solid black;
+}
+
+#grid-size {
+    margin: 0px 0px 0px 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 750;
+}
+
+#nameBox {
+    width: 250px;
+    height: 100px;
+    padding: 15px;
+    margin: 20px 0 0 0;
+    text-align: center;
+    background: yellow;
+    color: black;
+    border-radius: 100px;
+    border: solid 1px black;
+}
