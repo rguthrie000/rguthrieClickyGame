@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rguthrieClickyGame/static/css/main.fa192bb7.chunk.css",
+    "main.js": "/rguthrieClickyGame/static/js/main.52150aa0.chunk.js",
+    "main.js.map": "/rguthrieClickyGame/static/js/main.52150aa0.chunk.js.map",
+    "runtime-main.js": "/rguthrieClickyGame/static/js/runtime-main.35e70818.js",
+    "runtime-main.js.map": "/rguthrieClickyGame/static/js/runtime-main.35e70818.js.map",
+    "static/js/2.b0dd3cd5.chunk.js": "/rguthrieClickyGame/static/js/2.b0dd3cd5.chunk.js",
+    "static/js/2.b0dd3cd5.chunk.js.map": "/rguthrieClickyGame/static/js/2.b0dd3cd5.chunk.js.map",
+    "index.html": "/rguthrieClickyGame/index.html",
+    "precache-manifest.c1ce02dea244d400d5a3d2c1f98305a5.js": "/rguthrieClickyGame/precache-manifest.c1ce02dea244d400d5a3d2c1f98305a5.js",
+    "service-worker.js": "/rguthrieClickyGame/service-worker.js",
+    "static/css/main.fa192bb7.chunk.css.map": "/rguthrieClickyGame/static/css/main.fa192bb7.chunk.css.map",
+    "static/js/2.b0dd3cd5.chunk.js.LICENSE.txt": "/rguthrieClickyGame/static/js/2.b0dd3cd5.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/rguthrieClickyGame/static/media/jsx.7d09a485.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35e70818.js",
+    "static/js/2.b0dd3cd5.chunk.js",
+    "static/css/main.fa192bb7.chunk.css",
+    "static/js/main.52150aa0.chunk.js"
+  ]
+}
