@@ -1,68 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# rguthrieClickyGame
+Clicky Game! Score points by not clicking the same image twice! React-with-hooks app.
 
-## Available Scripts
+Uses React with hooks (useState, useEffect).
 
-In the project directory, you can run:
+Clicky Game offers a choice of grid size for a set of cards with GIF images.
+The user scores points by clicking cards which haven't been clicked before...
+but the cards are shuffled after each click. Clicking all of the cards 
+uniquely is rewarded with a special 'sparkle' background.
 
-### `npm start`
+This React app was created using the react package's create-react-app
+script for the npm CLI.  
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The app is deployed on GitHub pages at:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+https://rguthrie000.github.io/rguthrieClickyGame/
 
-### `npm test`
+The repository on GitHub is:  rguthrie000/rguthrieClickyGame
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Design Notes
 
-### `npm run build`
+File App.js is the state and HTML body file. Custom React components for the head section
+(ClickyHead) and the game body (ClickyBody) are used within the HTML body in App.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Data flows down to the components using the 'conventional' props process.  
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+App.js uses The create-react-app script supplied with the react package was used to create the startup and initial HTML file.
+A bootstrap.com link was added to the index.HTML file, and the utils/API file was created,
+but otherwise only the files in /src are application-specific.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## This application was developed with:
+VS Code - Smart Editor for HTML/CSS/JS
+node.js - JavaScript command-line interpreter
+Google Chrome Inspector - inspection/analysis tools integrated in Chrome Browser.
+react - middleware for optimized DOM manipulation and integrated JSX coding.
+github - version control, content repository.
+heroku - web deployment, including database hosting.
 
-### `npm run eject`
+## Versioning
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+GitHub is used for version control; the github repository is 
+rguthrie000/rguthrieUserDirectory.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Author
+rguthrie000 (Richard Guthrie)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Acknowledgments
+rguthrie000 is grateful to the UCF Coding Bootcamp - we rock!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
