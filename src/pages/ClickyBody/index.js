@@ -20,7 +20,7 @@ export default function ClickyBody(props) {
   return (    
     <div className="row game-board" width="0" id={props.victory ? "victory" : "normal"}>
       <div className="col-sm-12 grid-field">
-        {!props.running ? (<div><h3>{props.victory? "WINNER!": "Click Go!"}</h3></div>) : 
+        {!props.running ? (<div><h3 id="body-label">{props.victory? "WINNER!": "Click Go!"}</h3></div>) : 
           props.pageOrder.map(emitCard)}
       </div>
     </div>
